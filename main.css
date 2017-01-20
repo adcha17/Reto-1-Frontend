@@ -1,0 +1,38 @@
+body {
+	margin: 0px;
+}
+.header {
+	padding-bottom: 40px;
+	font-size: 2em;
+	background: yellow;
+	text-align: center;
+}
+.container {
+	font-size: 2em;
+	display: -webkit-box;	
+	-webkit-box-orient:horizontal;
+}
+.nav {
+	/*width: 50%;*/
+	
+	background: red;
+	-webkit-box-flex: 1;
+}
+.section {
+	
+	background: #d3b488;
+	-webkit-box-flex: 3;
+	/*width: 50%;*/
+}
+.article {	
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: white;
+	background: black;	
+}
+.footer {
+	padding-bottom: 40px;
+	font-size: 2em;
+	background: #008083;
+	text-align: center;
+}
